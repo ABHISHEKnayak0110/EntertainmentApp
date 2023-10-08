@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EntertainmentApp/static/css/main.668ee412.css",
+    "main.css": "/EntertainmentApp/static/css/main.100d4152.css",
     "main.js": "/EntertainmentApp/static/js/main.82ffea2a.js",
     "static/js/787.50b74c7e.chunk.js": "/EntertainmentApp/static/js/787.50b74c7e.chunk.js",
     "index.html": "/EntertainmentApp/index.html",
-    "main.668ee412.css.map": "/EntertainmentApp/static/css/main.668ee412.css.map",
+    "main.100d4152.css.map": "/EntertainmentApp/static/css/main.100d4152.css.map",
     "main.82ffea2a.js.map": "/EntertainmentApp/static/js/main.82ffea2a.js.map",
     "787.50b74c7e.chunk.js.map": "/EntertainmentApp/static/js/787.50b74c7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.668ee412.css",
+    "static/css/main.100d4152.css",
     "static/js/main.82ffea2a.js"
   ]
 }
