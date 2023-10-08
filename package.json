@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ABHISHEKnayak0110.github.io/EntertainmentApp",
   "name": "codehall",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,7 @@
     "@types/react-dom": "^18.2.11",
     "axios": "^1.5.1",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -23,6 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
