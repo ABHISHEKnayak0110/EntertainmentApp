@@ -3,7 +3,9 @@
   flex-direction: column;
   padding: 10px;
   width: 100%;
+  background-color: #ffffff;
   box-shadow: 0 3px 10px 0 #aaa;
+
   .imgPoster{
     object-fit: fill;
     height: 250px;
@@ -11,8 +13,8 @@
   .title{
    font-size: 16px;
   font-weight: 600;
-  color: black;
-  margin: 15px 0;
+  color: rgb(255, 128, 0);
+  margin: 6px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -23,7 +25,8 @@
     .styleDetails{
         font-size: 14px;
         font-weight: 500;
-        color: black;
+        font-style: italic;
+        color: rgb(158, 62, 177);
         white-space: nowrap;
         overflow: hidden;
         text-transform: capitalize;
