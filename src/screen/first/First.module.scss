@@ -20,7 +20,8 @@
         display: flex;
         flex-wrap: wrap;
         gap: 3%;
-        height: 78%;
+        max-height: 78%;
+        min-height: 50%;
         overflow-y: scroll;
        .cardDiv{
           margin-bottom: 1em;

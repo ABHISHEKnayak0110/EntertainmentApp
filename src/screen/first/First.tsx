@@ -83,7 +83,7 @@ function First() {
             <div className={style.headerDiv}> <Header /></div>
             <div className={style.filterContainer}>
                 <div className={style.dropdownDiv}>
-                    <SearchInputBox placeholder="Search by title" onChange={debouncedHandleSearchPhoneNo} />
+                    <SearchInputBox placeholder="Search by Title" onChange={debouncedHandleSearchPhoneNo} />
                 </div>
                 <div className={style.dropdownDiv}>
                     <Dropdown optionList={typeOptionList} setDataOutside={getDataDropdown} defaultText='Select Type' />
