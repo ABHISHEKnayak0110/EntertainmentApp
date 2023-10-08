@@ -14,7 +14,8 @@ function First() {
     const [searchType, setSearchType] = useState("")
 
     /** Constants **/
-    const typeOptionList = ["All", "Movie", "Series", "Episode"]
+    // This are the option available in public api for search by type 
+    const typeOptionList = ["All", "Movie", "Series", "Episode"] 
     const ApiKey = "8aaa7ab2" //Api key for Api call
 
     /** function for Api call**/
@@ -52,6 +53,7 @@ function First() {
         if (data !== "All") {
             paramsData["type"] = data
         }
+        //checking if search by title available or not
         if (searchTiltle?.length > 0) {
             paramsData["s"] = searchTiltle
         }
@@ -67,6 +69,7 @@ function First() {
             s: name ? name : "dil",
             apiKey: ApiKey,
         }
+        // checking if search by type available or not 
         if (searchType?.length > 0 && searchType !== "All") {
             paramsData["type"] = searchType
         }
