@@ -1,0 +1,46 @@
+.firstScreenWrapper{
+    width: 100%;
+    height: 100%;
+    .headerDiv{
+        width: 100%;
+        height: 40px
+    }
+    .filterContainer{
+        display: flex;
+        width: 96%;
+        padding: 1% 2%;
+    }
+    .dropdownDiv{
+        width: 15%;
+        margin-right: 2%;
+    }
+    .cardContainer{
+        margin: 2%;
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        height: 78%;
+        overflow-y: scroll;
+       .cardDiv{
+          margin-bottom: 1em;
+          width: 230px ;
+       }
+       .noDataDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: nodata 3s ;
+       }
+       @keyframes nodata {
+        from {
+          margin-left: -100%;
+        }
+        to {
+          margin-left: 0%;
+        }
+      }
+    }
+    
+}
